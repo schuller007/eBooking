@@ -18,10 +18,11 @@
         <r:layoutResources />
 	</head>
 	<body>
-		<div id="cambianLogo" role="banner"><a href="http://www.cambian.com"><img src="${resource(dir: 'images', file: 'cambian.png')}" alt="Cambian"/></a></div>
+		<div id="cambianLogo" role="banner"><a href="http://www.cambian.com"><img src="${resource(dir: 'images', file: 'cambian.png')}" alt="Cambian"/></a>
 		 <div id="loginHeader" class="header-main">
     		<g:loginControl />
   		</div>
+  	  </div>	
 		<g:layoutBody/>
 		<div class="footer" role="contentinfo"></div>
 		<div id="spinner" class="spinner" style="display:none;"><g:message code="spinner.alt" default="Loading&hellip;"/></div>

@@ -22,7 +22,7 @@ class UserController {
 		if(user){
 			session.user = user		
 			if (user.role.equals("GP")) {
-				redirect(controller:"GP")
+				redirect(controller:"practitioner")
 			} else if (user.role.equals("Admin")) {	
 				redirect(controller:"user", action:"list")
 			}
